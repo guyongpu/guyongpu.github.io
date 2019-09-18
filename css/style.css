@@ -7,7 +7,12 @@
 @import url("font-awesome.min.css");
 
 /* Basic */
-
+	.headpic{
+		border-radius: 50%;
+		width: 150%;
+		margin-left: -25%;
+	}
+	
 	body, input, select, textarea {
 		color: white;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -165,11 +170,11 @@
 	@keyframes nav-icons { 0% { -moz-transform: translate3d(0,1em,0); -webkit-transform: translate3d(0,1em,0); -o-transform: translate3d(0,1em,0); -ms-transform: translate3d(0,1em,0); transform: translate3d(0,1em,0); opacity: 0; } 100% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); opacity: 1; } }
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-o-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header 0.5s 1.75s forwards;
+		-webkit-animation: header 0.5s 1.75s forwards;
+		-o-animation: header 0.5s 1.75s forwards;
+		-ms-animation: header 0.5s 1.75s forwards;
+		animation: header 0.5s 1.75s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-o-backface-visibility: hidden;
@@ -194,8 +199,8 @@
 		}
 
 		#header h1 {
-			font-size: 4em;
-			font-weight: 900;
+			font-size: 3em;
+			font-weight: 700;
 			letter-spacing: -0.035em;
 			line-height: 1em;
 		}
@@ -332,12 +337,12 @@
 					border: solid 1px white;
 					display: block;
 					font-size: 1.75em;
-					height: 2.5em;
-					line-height: 2.5em;
+					height: 2em;
+					line-height: 2em;
 					position: relative;
 					text-align: center;
 					top: 0;
-					width: 2.5em;
+					width: 2em;
 				}
 
 				#header nav a:hover {
